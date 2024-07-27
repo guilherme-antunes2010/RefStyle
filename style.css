@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fefdfb;
+    font-family: "Outfit", sans-serif;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    background-color: #fefdfb;
+    width: 10px;
+    border: 1px solid #000000;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000000;
+    height: 3px;
+}
+
+
+
+/* index.html  */
+
+/* header */
+
+.menu{
+    display: flex;
+    text-align:center ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+
+.menu img{
+    width: 200px;
+}
+
+.menu nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    padding: 0 8px;
+    font-weight: 600;
+}
+
+.menu nav ul{
+    color: #000000;
+    font-size: 30px;
+    padding: 0 8px;
+    font-weight: 600;
+}
+
+.vantagens{
+    background-color: #000000;
+    text-align:center ;
+    align-items: center;
+}
+
+.vantagens nav ul li {
+    list-style: none;
+    display: inline-block;
+    color: #ffffff;
+    padding: 0 30px;
+}
+
+.vantagens span{
+    font-weight: 600;
+}
+
+
+
+/* header */
+
+/* main */
+
+.slider img{
+    width: 1263px;
+}
+
+.marcas{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.marcas ul li{
+    list-style: none;
+}
+
+.marcas ul li a button{
+    border: 1px solid #000000;
+    background-color: #fefdfb;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.marcas button:hover{
+    border-color: #800000;
+}
+
+.marcas ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.marcas img {
+    width: 100px;
+}
+
+.cols{
+    display: grid;
+    flex-direction: column;
+}
+
+.cols5{
+    grid-template-columns: repeat(5,1fr);
+}
+
+.lancamentos{
+    padding: 30px 0;
+}
+
+.lancamentos img{
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #c0c0c0;
+}
+
+.lancamentos img:hover{
+    transition: all 0.5s;
+    border: 1.5px solid #800000;
+}
+
+
+.lancamentos{
+    text-align: center;
+}
+
+.produtos-icons{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos-icons ul li{
+    list-style: none;
+}
+
+.produtos-icons ul li a button{
+    border: 1px solid #000000;
+    background-color: #fefdfb;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos-icons ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.produtos-icons img {
+    width: 100px;
+}
+
+.produtos-icons button:hover{
+    border-color: #800000;
+}
+
+.promocao{
+    padding: 30px 0;
+}
+
+.promocao img{
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #c0c0c0;
+}
+
+.promocao img:hover{
+    transition: all 0.5s;
+    border: 1.5px solid #800000;
+}
+
+.promocao{
+    text-align: center;
+}
+
+.produto h2{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.produto a{
+    text-decoration: none;
+}
+
+.produto h3{
+    color: #000000;
+}
+
+.produto button{
+    border: 1px solid #000000;
+    background-color: #fefdfb;
+    color: #000000;
+    padding:5px 10px ;
+}
+
+.sobre{
+    display: flex;
+}
+
+.left {
+    padding: 40px;
+}
+
+
+.right{
+    padding: 40px;
+}
+
+.right img {
+    width: 460px;
+}
+/* main */
+
+/* footer  */
+
+footer{
+    background-color: #000000;
+    color: #fefdfb;
+}
+
+
+/* footer  */
+
+/* index.html  */
