@@ -27,24 +27,24 @@ body{
 
 /* header */
 
-.menu{
+.menu-web{
     display: flex;
     text-align:center ;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 0px;
+    padding: 0px ;
 }
 
-.menu img{
+.menu-web img{
     width: 200px;
 }
 
-.menu nav ul li {
+.menu-web nav ul li {
     list-style: none;
     display: inline-block;
 }
 
-.menu nav ul li a{
+.menu-web nav ul li a{
     text-decoration: none;
     color: #000000;
     font-size: 30px;
@@ -52,7 +52,7 @@ body{
     font-weight: 600;
 }
 
-.menu nav ul{
+.menu-web nav ul{
     color: #000000;
     font-size: 30px;
     padding: 0 8px;
@@ -106,6 +106,8 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .marcas button:hover{
@@ -131,23 +133,8 @@ body{
 }
 
 .lancamentos{
-    padding: 30px 0;
-}
-
-.lancamentos img{
-    width: 90%;
-    padding: 15px;
-    border: 1px solid #c0c0c0;
-}
-
-.lancamentos img:hover{
-    transition: all 0.5s;
-    border: 1.5px solid #800000;
-}
-
-
-.lancamentos{
     text-align: center;
+     padding: 30px 0;
 }
 
 .produtos-icons{
@@ -167,6 +154,8 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .produtos-icons ul li{
@@ -182,19 +171,22 @@ body{
     border-color: #800000;
 }
 
-.promocao{
+.promocao .produto{
     padding: 30px 0;
-}
-
-.promocao img{
-    width: 90%;
     padding: 15px;
     border: 1px solid #c0c0c0;
 }
 
-.promocao img:hover{
-    transition: all 0.5s;
-    border: 1.5px solid #800000;
+.produto{
+    transition: 0.5s;
+}
+
+.produto img{
+    width: 90%;
+}
+
+.produto:hover{
+    border: 1px solid #800000;
 }
 
 .promocao{
@@ -236,6 +228,7 @@ body{
 
 .left {
     padding: 40px;
+    padding-top: 70px;
 }
 
 
@@ -244,7 +237,7 @@ body{
 }
 
 .right img {
-    width: 460px;
+    width: 400px;
 }
 /* main */
 
@@ -254,27 +247,74 @@ footer{
     background-color: #000000;
     color: #fefdfb;
     display: flex;
-    padding: 20px;
+    align-items: center;
     justify-content: space-between;
 }
 
 
-.left-footer h3{
-    font-size: 15px;
-    text-align: center;
+.right-footer h3{
+    font-size: 20px;
+    padding-bottom: 8px;
+    padding-top: 15px;
 }
 
 .right-footer{
-    display: flex;
-    align-items: center;
+    text-align: left;
+    padding-right: 25px;
+    padding-bottom: 40px;
 }
 
-.right-footer img{
-    width: 200px;
 
+.right-footer i{
+    font-size: 30px;
+    padding-right:10px;
+    transition: 0.5s;
+}
+
+.right-footer i:hover{
+    color: #fefdfb;
+}
+
+.right-footer .bi-facebook{
+    color: #0000da;   
+}
+
+.right-footer .bi-instagram{
+    color: #b90000;
+}
+
+.right-footer a{
+    text-decoration: none;
 }
 
 .right-footer p{
+    color: #fefdfb;
+    transition: 0.5s;
+}
+
+.right-footer p:hover{
+    color: #6e6eff;
+}
+
+.left-footer img{
+    width: 200px;
+}
+
+.left-footer {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.center-footer{
+    align-items: center;
+    text-align: left;
+    
+}
+
+.center-footer span{
+    font-size: 15px;
+    font-weight: 800;
 }
 
 

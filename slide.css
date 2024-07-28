@@ -4,6 +4,7 @@ section.slider{
     width: 100%;
     height: auto;
     padding: 0 !important;
+    overflow: hidden;
 }
 
 .slider-content{
@@ -71,6 +72,10 @@ section.slider{
 }
 
 @media screen and (max-width: 900px){
+    .slider{
+        overflow: none;
+    }
+
     .img-web{
         display: none;
     }

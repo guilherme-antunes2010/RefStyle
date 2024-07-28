@@ -1,0 +1,33 @@
+@media screen and (max-width: 900px){
+    /* index.html  */
+
+/* header */
+
+    .menu-web{
+        display: none;
+    }
+
+    .menu-web> a img{
+        display: block ;
+    }
+
+    .cols5{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    body{
+        overflow:block;
+    }
+
+    .sobre{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+/* header */
+
+/* index.html  */
+}
