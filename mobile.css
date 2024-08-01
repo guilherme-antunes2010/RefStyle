@@ -1,33 +1,257 @@
-@media screen and (max-width: 900px){
+@media screen and (max-width: 800px){
     /* index.html  */
 
 /* header */
 
-    .menu-web{
-        display: none;
-    }
+.menu{
+    border-bottom: 1px solid #000000;
+}
 
-    .menu-web> a img{
-        display: block ;
-    }
 
-    .cols5{
-        grid-template-columns: repeat(2,1fr);
-    }
+.menu-web, .logo-2 img{
+    display: none;
+}
 
-    body{
-        overflow:block;
-    }
+.logo-1 img {
+    width: 100px;
+    
+}
 
-    .sobre{
-        display: none;
-    }
+.nome-mobile{
+    display: block;
+    
+}
 
-    footer{
-        display: none;
-    }
+.nome-mobile h1{
+    color: #000000;
+    text-align: center;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.mobile-menu-icon{
+    display: block;
+    padding-right: 20px;
+    
+}
+
+.mobile-menu-icon button{
+    background-color: transparent;
+    border: 1px solid #000000;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+
+.mobile-menu-icon i{
+    font-size: 25px;
+    font-weight:700 ;
+}
+
+
+.menu-mob ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color: #fefdfb;
+}
+
+.menu-mob li{
+    display: block;
+    padding-top: 1.2rem ;
+    list-style: none;
+}
+
+.menu-mob li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.open{
+    display: block;
+    transition: 0.5s;
+}
+
+.menu-mob{
+    border: 2px solid #000000;
+    margin: 10px 4px;
+}
+
+.vantagens{
+    display: none;
+}
+
 
 /* header */
+
+/* main  */
+
+main h1{
+    font-size: 25px;
+}
+
+.marcas p{
+    font-size: 13px;
+}
+
+
+.marcas ul li{
+    padding: 10px 3px;
+}
+
+.marcas img {
+    width: 70px;
+}
+
+.cols{
+    display: grid;
+    flex-direction: column;
+}
+
+.cols5{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.cols6{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.lancamentos{
+    padding: 15px 0;
+}
+
+.produto{
+    margin-right: 10px;
+}
+
+.venda {
+    text-align: center;
+}
+
+.produto img{
+    width: 90%;
+}
+
+.produtos-icons{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos-icons ul li{
+    list-style: none;
+}
+
+
+.produtos-icons ul li{
+    padding: 10px 3px;
+}
+
+.produtos-icons img {
+    width: 53px;
+}
+
+.produto h2{
+    font-size: 15px;
+}
+
+.sobre{
+    display: block;
+}
+
+.sobre img {
+    display: none;
+}
+
+/* main  */
+
+/* footer  */
+
+footer{
+    background-color: #000000;
+    color: #fefdfb;
+    display: block;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.right-footer h3{
+    font-size: 15px;
+    padding-bottom: 8px;
+    padding-top: 0px;
+}
+
+.right-footer{
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 4px;
+    padding-bottom: 0px;
+}
+
+
+.right-footer i{
+    font-size: 20px;
+    padding-right:10px;
+    transition: 0.5s;
+}
+
+.right-footer i:hover{
+    color: #fefdfb;
+}
+
+.right-footer .bi-facebook{
+    color: #0000da;   
+}
+
+.right-footer .bi-instagram{
+    color: #b90000;
+}
+
+.right-footer a{
+    text-decoration: none;
+}
+
+.right-footer p{
+    color: #fefdfb;
+    transition: 0.5s;
+    font-size: 12px;
+}
+
+.right-footer p:hover{
+    color: #6e6eff;
+}
+
+.left-footer img{
+    display: none;
+}
+
+.left-footer {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.center-footer{
+    align-items: center;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.center-footer p{
+    font-size: 11px;
+}
+
+.center-footer span{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+
+/* footer  */
 
 /* index.html  */
 }
