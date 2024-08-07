@@ -123,15 +123,17 @@ main h1{
 }
 
 .produto{
-    margin-right: 10px;
+    margin-right: 8px;
+    padding-bottom: 10px ;
 }
 
 .venda {
     text-align: center;
 }
 
-.produto img{
-    width: 90%;
+.cols6 .produto img{
+    width: 100px;
+    height: 120px;
 }
 
 .produtos-icons{
@@ -164,6 +166,14 @@ main h1{
 
 .sobre img {
     display: none;
+}
+
+.terceiro i{
+    font-size: 90px;
+}
+
+.segundo dialog{
+    padding: 3px 20px;
 }
 
 /* main  */
@@ -254,4 +264,21 @@ footer{
 /* footer  */
 
 /* index.html  */
+
+
+form h1{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+form p{
+    margin: 12px 0;
+}
+
+.input-single{
+    position: relative;
+    margin: 12px 0;
+    text-align: left;
+}
+
 }

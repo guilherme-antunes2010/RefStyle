@@ -19,16 +19,26 @@ function menu() {
 
 
 document.addEventListener('DOMContentLoaded', (event) => {
+    var modal0 = document.querySelector(".zero dialog")
     var modal1 = document.querySelector(".primeiro dialog");
     var modal2 = document.querySelector(".segundo dialog");
     var modal3 = document.querySelector(".terceiro dialog");
     var modal4 = document.querySelector(".quarto dialog");
 
     function mostrar() {
-        if (modal1) {
-            modal1.showModal();
+        if (modal0) {
+            modal0.showModal();
         } else {
-            console.error('Elemento modal1 não encontrado');
+            console.error('Elemento modal0 não encontrado');
+        }
+    }
+
+    function proximo0() {
+        if (modal1 && modal0) {
+            modal1.showModal();
+            modal0.close();
+        } else {
+            console.error('Elemento modal1 ou modal0 não encontrado');
         }
     }
 
@@ -59,11 +69,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 
-    function fechar1() {
+    function fechar0() {
         if (modal1) {
+            modal0.close();
+        } else {
+            console.error('Elemento modal0 não encontrado');
+        }
+    }
+
+    function fechar1() {
+        if (modal0 && modal1) {
+            modal0.showModal();
             modal1.close();
         } else {
-            console.error('Elemento modal1 não encontrado');
+            console.error('Elemento modal1 ou modal2 não encontrado');
         }
     }
 
@@ -100,9 +119,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Tornando as funções globais
     window.teste = teste;
     window.mostrar = mostrar;
+    window.proximo0 = proximo0;
     window.proximo = proximo;
     window.proximo2 = proximo2;
     window.proximo3 = proximo3;
+    window.fechar0 = fechar0;
     window.fechar1 = fechar1;
     window.fechar2 = fechar2;
     window.fechar3 = fechar3;
